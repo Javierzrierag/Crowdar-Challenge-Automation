@@ -1,0 +1,61 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5008095900,
+              "error_message": "java.lang.NullPointerException\r\n\tat securitizeTest.SecuritizeLogic.login(SecuritizeLogic.java:33)\r\n\tat securitizeTest.SecuritizeSteps.iLogIntoPracticsPage(SecuritizeSteps.java:29)\r\n\tat ✽.Given I log into Practics page(securitize.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I log into Practics page",
+            "match": {
+              "location": "SecuritizeSteps.iLogIntoPracticsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Log into Practics test correctly",
+        "description": "",
+        "id": "test-automation-for-securitize;log-into-practics-test-correctly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I verify diferents ways",
+            "match": {
+              "location": "SecuritizeSteps.iVeryfyDiferentsWays()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test Automation for Securitize",
+    "description": "",
+    "id": "test-automation-for-securitize",
+    "keyword": "Feature",
+    "uri": "securitize.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SECURITIZE"
+      }
+    ]
+  }
+]
